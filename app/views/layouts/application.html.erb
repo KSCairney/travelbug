@@ -5,9 +5,14 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag 'application', 'https://fonts.googleapis.com/css?family=Hind+Siliguri|Alegreya+Sans+SC', media: 'all', 'data-turbolinks-track' => true %>
 </head>
 <body>
-
+  <header>
+    <p id="titlelogo">travelBug</p>
+    <!-- <p id="titlesub">Bug-sized travel guides.</p> -->
+    <%= image_tag("bugpath.png") %>
+  </header>
 <%= yield %>
 
 </body>
