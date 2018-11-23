@@ -1,0 +1,91 @@
+/* line 5, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+body {
+  background-color: #FFCF2;
+}
+
+/* line 9, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.heady img {
+  height: 30px;
+  padding-left: 16px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* line 16, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+#titlelogo {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #519872;
+  font-size: 4.0em;
+  margin: 0;
+  padding: 10px 0 0 0;
+  line-height: 60%;
+}
+
+/* line 25, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+#titlesub {
+  font-family: 'Hind Siliguri', sans-serif;
+  color: white;
+  font-size: 2.0em;
+  margin: 0;
+  padding: 25px 0;
+  line-height: 60%;
+}
+
+/* line 34, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.subrow {
+  background-color: #252422;
+}
+
+/* line 38, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.headbar {
+  padding-top: 10px;
+  box-shadow: 0px 0px 10px 0px #252422;
+}
+
+/* line 43, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.cntr {
+  margin: auto;
+  text-align: center;
+}
+
+/* line 48, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.pictop {
+  padding: 0;
+}
+
+/* line 52, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.pictop img {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 59, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.postcat {
+  padding-top: 16px;
+  color: #101271;
+  font-size: 1.5em;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* line 66, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.otthsblue {
+  color: #101271;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
