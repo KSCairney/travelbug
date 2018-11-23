@@ -1,0 +1,2 @@
+json.extract! post, :id, :author, :article_title, :photo1_url, :photo2_url, :article_body, :post_date, :continent, :country, :city, :location, :food, :drink, :history, :nature, :art, :muesum, :boolean, :sport, :castle, :transport, :animals, :park, :urban, :neighbourhood, :market, :train, :structure, :religious, :literature, :person, :macabre, :festival, :holiday, :burial, :film, :theatre, :tech, :seasonal, :archaeology, :science, :created_at, :updated_at
+json.url post_url(post, format: :json)

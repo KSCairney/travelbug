@@ -4,6 +4,7 @@
 
 body {
     background-color: #FFCF2;
+    margin: 0;
 }
 
 .heady img {
@@ -65,4 +66,47 @@ body {
 
 .otthsblue {
     color: #101271;
+}
+
+.field, .action {
+    margin-left: 20px;
+}
+
+///Article Formating
+
+.artTitle {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #519872;
+    font-size: 2.0em;
+    margin-bottom: 4px;
+}
+
+.artDate {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1.2em;
+    color: #C0DBB7;
+    margin-top: 0;
+}
+
+.artFull {
+    text-align: justify;
+    font-size: 1.0em;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #252422;
+}
+
+.artImage1 {
+    padding-left:30px;
+    text-align:left;
+    width: auto;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.artImage2 {
+    padding-left:30px;
+    text-align:left;
+    width: auto;
+    height: 400px;
+    margin-bottom: 20px;
 }

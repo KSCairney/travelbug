@@ -1,0 +1,105 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Posts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Author</th>
+      <th>Article title</th>
+      <th>Photo1 url</th>
+      <th>Photo2 url</th>
+      <th>Article body</th>
+      <th>Post date</th>
+      <th>Continent</th>
+      <th>Country</th>
+      <th>City</th>
+      <th>Location</th>
+      <th>Food</th>
+      <th>Drink</th>
+      <th>History</th>
+      <th>Nature</th>
+      <th>Art</th>
+      <th>Mueseum</th>
+      <th>Sport</th>
+      <th>Castle</th>
+      <th>Transport</th>
+      <th>Animals</th>
+      <th>Park</th>
+      <th>Urban</th>
+      <th>Neighbourhood</th>
+      <th>Market</th>
+      <th>Train</th>
+      <th>Structure</th>
+      <th>Religious</th>
+      <th>Literature</th>
+      <th>Person</th>
+      <th>Macabre</th>
+      <th>Festival</th>
+      <th>Holiday</th>
+      <th>Burial</th>
+      <th>Film</th>
+      <th>Theatre</th>
+      <th>Tech</th>
+      <th>Seasonal</th>
+      <th>Archaeology</th>
+      <th>Science</th>
+      <th>Live</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @posts.each do |post| %>
+      <tr>
+        <td><%= post.author %></td>
+        <td><%= post.article_title %></td>
+        <td><%= post.photo1_url %></td>
+        <td><%= post.photo2_url %></td>
+        <td><%= post.article_body %></td>
+        <td><%= post.post_date %></td>
+        <td><%= post.continent %></td>
+        <td><%= post.country %></td>
+        <td><%= post.city %></td>
+        <td><%= post.location %></td>
+        <td><%= post.food %></td>
+        <td><%= post.drink %></td>
+        <td><%= post.history %></td>
+        <td><%= post.nature %></td>
+        <td><%= post.art %></td>
+        <td><%= post.museum %></td>
+        <td><%= post.sport %></td>
+        <td><%= post.castle %></td>
+        <td><%= post.transport %></td>
+        <td><%= post.animals %></td>
+        <td><%= post.park %></td>
+        <td><%= post.urban %></td>
+        <td><%= post.neighbourhood %></td>
+        <td><%= post.market %></td>
+        <td><%= post.train %></td>
+        <td><%= post.structure %></td>
+        <td><%= post.religious %></td>
+        <td><%= post.literature %></td>
+        <td><%= post.person %></td>
+        <td><%= post.macabre %></td>
+        <td><%= post.festival %></td>
+        <td><%= post.holiday %></td>
+        <td><%= post.burial %></td>
+        <td><%= post.film %></td>
+        <td><%= post.theatre %></td>
+        <td><%= post.tech %></td>
+        <td><%= post.seasonal %></td>
+        <td><%= post.archaeology %></td>
+        <td><%= post.science %></td>
+        <td><%= post.live %></td>
+        <td><%= link_to 'Show', post %></td>
+        <td><%= link_to 'Edit', edit_post_path(post) %></td>
+        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Post', new_post_path %>

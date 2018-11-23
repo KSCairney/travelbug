@@ -1,0 +1,217 @@
+<%= form_for(post) do |f| %>
+  <% if post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
+
+      <ul>
+      <% post.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :author %>
+    <%= f.text_field :author %>
+  </div>
+
+  <div class="field">
+    <%= f.label :article_title %>
+    <%= f.text_field :article_title %>
+  </div>
+
+  <div class="field">
+    <%= f.label :photo1_url %>
+    <%= f.text_field :photo1_url %>
+  </div>
+
+  <div class="field">
+    <%= f.label :photo2_url %>
+    <%= f.text_field :photo2_url %>
+  </div>
+
+  <div class="field">
+    <%= f.label :article_body %>
+    <%= f.text_area :article_body %>
+  </div>
+
+  <div class="field">
+    <%= f.label :post_date %>
+    <%= f.date_select :post_date %>
+  </div>
+
+  <div class="field">
+    <%= f.label :continent %>
+    <%= f.text_field :continent %>
+  </div>
+
+  <div class="field">
+    <%= f.label :country %>
+    <%= f.text_field :country %>
+  </div>
+
+  <div class="field">
+    <%= f.label :city %>
+    <%= f.text_field :city %>
+  </div>
+
+  <div class="field">
+    <%= f.label :location %>
+    <%= f.text_field :location %>
+  </div>
+
+  <div class="field">
+    <%= f.label :food %>
+    <%= f.check_box :food %>
+  </div>
+
+  <div class="field">
+    <%= f.label :drink %>
+    <%= f.check_box :drink %>
+  </div>
+
+  <div class="field">
+    <%= f.label :history %>
+    <%= f.check_box :history %>
+  </div>
+
+  <div class="field">
+    <%= f.label :nature %>
+    <%= f.check_box :nature %>
+  </div>
+
+  <div class="field">
+    <%= f.label :art %>
+    <%= f.check_box :art %>
+  </div>
+
+  <div class="field">
+    <%= f.label :museum %>
+    <%= f.check_box :museum %>
+  </div>
+
+  <div class="field">
+    <%= f.label :sport %>
+    <%= f.check_box :sport %>
+  </div>
+
+  <div class="field">
+    <%= f.label :castle %>
+    <%= f.check_box :castle %>
+  </div>
+
+  <div class="field">
+    <%= f.label :transport %>
+    <%= f.check_box :transport %>
+  </div>
+
+  <div class="field">
+    <%= f.label :animals %>
+    <%= f.check_box :animals %>
+  </div>
+
+  <div class="field">
+    <%= f.label :park %>
+    <%= f.check_box :park %>
+  </div>
+
+  <div class="field">
+    <%= f.label :urban %>
+    <%= f.check_box :urban %>
+  </div>
+
+  <div class="field">
+    <%= f.label :neighbourhood %>
+    <%= f.check_box :neighbourhood %>
+  </div>
+
+  <div class="field">
+    <%= f.label :market %>
+    <%= f.check_box :market %>
+  </div>
+
+  <div class="field">
+    <%= f.label :train %>
+    <%= f.check_box :train %>
+  </div>
+
+  <div class="field">
+    <%= f.label :structure %>
+    <%= f.check_box :structure %>
+  </div>
+
+  <div class="field">
+    <%= f.label :religious %>
+    <%= f.check_box :religious %>
+  </div>
+
+  <div class="field">
+    <%= f.label :literature %>
+    <%= f.check_box :literature %>
+  </div>
+
+  <div class="field">
+    <%= f.label :person %>
+    <%= f.check_box :person %>
+  </div>
+
+  <div class="field">
+    <%= f.label :macabre %>
+    <%= f.check_box :macabre %>
+  </div>
+
+  <div class="field">
+    <%= f.label :festival %>
+    <%= f.check_box :festival %>
+  </div>
+
+  <div class="field">
+    <%= f.label :holiday %>
+    <%= f.check_box :holiday %>
+  </div>
+
+  <div class="field">
+    <%= f.label :burial %>
+    <%= f.check_box :burial %>
+  </div>
+
+  <div class="field">
+    <%= f.label :film %>
+    <%= f.check_box :film %>
+  </div>
+
+  <div class="field">
+    <%= f.label :theatre %>
+    <%= f.check_box :theatre %>
+  </div>
+
+  <div class="field">
+    <%= f.label :tech %>
+    <%= f.check_box :tech %>
+  </div>
+
+  <div class="field">
+    <%= f.label :seasonal %>
+    <%= f.check_box :seasonal %>
+  </div>
+
+  <div class="field">
+    <%= f.label :archaeology %>
+    <%= f.check_box :archaeology %>
+  </div>
+
+  <div class="field">
+    <%= f.label :science %>
+    <%= f.check_box :science %>
+  </div>
+  
+  <div class="field">
+    <%= f.label :live %>
+    <%= f.check_box :live %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
