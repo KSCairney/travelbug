@@ -1,0 +1,237 @@
+/* line 1, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+/* line 10, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+/* line 17, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 23, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 26, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 30, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 36, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 40, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 47, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 52, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 56, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 62, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 70, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 81, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 87, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/* line 5, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+body {
+  background-color: #FFCF2;
+  margin: 0;
+}
+
+/* line 10, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.heady img {
+  height: 30px;
+  padding-left: 16px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* line 17, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+#titlelogo {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #519872;
+  font-size: 4.0em;
+  margin: 0;
+  padding: 10px 0 0 0;
+  line-height: 60%;
+}
+
+/* line 26, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+#titlesub {
+  font-family: 'Hind Siliguri', sans-serif;
+  color: white;
+  font-size: 2.0em;
+  margin: 0;
+  padding: 25px 0;
+  line-height: 60%;
+}
+
+/* line 35, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.subrow {
+  background-color: #252422;
+}
+
+/* line 39, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.headbar {
+  padding-top: 10px;
+  box-shadow: 0px 0px 10px 0px #252422;
+}
+
+/* line 44, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.cntr {
+  margin: auto;
+  text-align: center;
+}
+
+/* line 49, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.pictop {
+  padding: 0;
+}
+
+/* line 53, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.pictop img {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 60, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.postcat {
+  padding-top: 16px;
+  color: #101271;
+  font-size: 1.5em;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* line 67, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.otthsblue {
+  color: #101271;
+}
+
+/* line 71, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.field, .action {
+  margin-left: 20px;
+}
+
+/* line 77, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.artTitle {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #519872;
+  font-size: 2.0em;
+  margin-bottom: 4px;
+}
+
+/* line 84, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.artDate {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 1.2em;
+  color: #C0DBB7;
+  margin-top: 0;
+}
+
+/* line 91, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.artFull {
+  text-align: justify;
+  font-size: 1.0em;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: #252422;
+}
+
+/* line 98, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.artImage1 {
+  padding-left: 30px;
+  text-align: left;
+  width: auto;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+/* line 106, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.artImage2 {
+  padding-left: 30px;
+  text-align: left;
+  width: auto;
+  height: 400px;
+  margin-bottom: 20px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
