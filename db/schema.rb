@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181123220344) do
+ActiveRecord::Schema.define(version: 20181123213358) do
 
   create_table "posts", force: :cascade do |t|
     t.string   "author"
@@ -53,8 +53,9 @@ ActiveRecord::Schema.define(version: 20181123220344) do
     t.boolean  "science"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
-    t.boolean  "museum"
-    t.boolean  "live"
+    t.string   "muesum"
+    t.string   "boolean"
+    t.string   "museum"
   end
 
 end
