@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   get 'simple_pages/articles'
 
   get 'simple_pages/united_kingdom'
+  
+  get 'posts/index'
 
   resources :posts
   get 'simple_pages/index'
