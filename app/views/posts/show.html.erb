@@ -1,204 +1,25 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Author:</strong>
-  <%= @post.author %>
-</p>
 
-<p>
-  <strong>Article title:</strong>
-  <%= @post.article_title %>
-</p>
-
-<p>
-  <strong>Photo1 url:</strong>
-  <%= @post.photo1_url %>
-</p>
-
-<p>
-  <strong>Photo2 url:</strong>
-  <%= @post.photo2_url %>
-</p>
-
-<p>
-  <strong>Article body:</strong>
-  <%= @post.article_body %>
-</p>
-
-<p>
-  <strong>Post date:</strong>
-  <%= @post.post_date %>
-</p>
-
-<p>
-  <strong>Continent:</strong>
-  <%= @post.continent %>
-</p>
-
-<p>
-  <strong>Country:</strong>
-  <%= @post.country %>
-</p>
-
-<p>
-  <strong>City:</strong>
-  <%= @post.city %>
-</p>
-
-<p>
-  <strong>Location:</strong>
-  <%= @post.location %>
-</p>
-
-<p>
-  <strong>Food:</strong>
-  <%= @post.food %>
-</p>
-
-<p>
-  <strong>Drink:</strong>
-  <%= @post.drink %>
-</p>
-
-<p>
-  <strong>History:</strong>
-  <%= @post.history %>
-</p>
-
-<p>
-  <strong>Nature:</strong>
-  <%= @post.nature %>
-</p>
-
-<p>
-  <strong>Art:</strong>
-  <%= @post.art %>
-</p>
-
-<p>
-  <strong>Museum:</strong>
-  <%= @post.museum %>
-</p>
-
-<p>
-  <strong>Sport:</strong>
-  <%= @post.sport %>
-</p>
-
-<p>
-  <strong>Castle:</strong>
-  <%= @post.castle %>
-</p>
-
-<p>
-  <strong>Transport:</strong>
-  <%= @post.transport %>
-</p>
-
-<p>
-  <strong>Animals:</strong>
-  <%= @post.animals %>
-</p>
-
-<p>
-  <strong>Park:</strong>
-  <%= @post.park %>
-</p>
-
-<p>
-  <strong>Urban:</strong>
-  <%= @post.urban %>
-</p>
-
-<p>
-  <strong>Neighbourhood:</strong>
-  <%= @post.neighbourhood %>
-</p>
-
-<p>
-  <strong>Market:</strong>
-  <%= @post.market %>
-</p>
-
-<p>
-  <strong>Train:</strong>
-  <%= @post.train %>
-</p>
-
-<p>
-  <strong>Structure:</strong>
-  <%= @post.structure %>
-</p>
-
-<p>
-  <strong>Religious:</strong>
-  <%= @post.religious %>
-</p>
-
-<p>
-  <strong>Literature:</strong>
-  <%= @post.literature %>
-</p>
-
-<p>
-  <strong>Person:</strong>
-  <%= @post.person %>
-</p>
-
-<p>
-  <strong>Macabre:</strong>
-  <%= @post.macabre %>
-</p>
-
-<p>
-  <strong>Festival:</strong>
-  <%= @post.festival %>
-</p>
-
-<p>
-  <strong>Holiday:</strong>
-  <%= @post.holiday %>
-</p>
-
-<p>
-  <strong>Burial:</strong>
-  <%= @post.burial %>
-</p>
-
-<p>
-  <strong>Film:</strong>
-  <%= @post.film %>
-</p>
-
-<p>
-  <strong>Theatre:</strong>
-  <%= @post.theatre %>
-</p>
-
-<p>
-  <strong>Tech:</strong>
-  <%= @post.tech %>
-</p>
-
-<p>
-  <strong>Seasonal:</strong>
-  <%= @post.seasonal %>
-</p>
-
-<p>
-  <strong>Archaeology:</strong>
-  <%= @post.archaeology %>
-</p>
-
-<p>
-  <strong>Science:</strong>
-  <%= @post.science %>
-</p>
-
-<p>
-  <strong>Live:</strong>
-  <%= @post.live %>
-</p>
+<div class="row">
+    <div class="col-xl-3 col-lg-3 col-md-3 sm-hidden xs-hidden"></div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <p class="artTitle"><%= @post.article_title %></p>
+        <p class="artDate"><%= @post.post_date %></p>
+        <p class="artFull"><%= simple_format @post.article_body %></p>
+        <img class="artImage1" src="<%= @post.photo2_url %>">
+        <img class="artImage2" src="<%= @post.photo1_url %>">
+        <p class="artDate"><%= @post.city %>, <%= @post.country %></p>
+        <% @post.attributes.each do |attr| %>
+		      <% if attr[1] == true %>
+		        <p class="artList">
+		          <%= attr[0] %>
+		        </p>
+		      <% end %>
+        <% end %>
+    </div>
+    <div class="col-xl-3 col-lg-3 col-md-3 sm-hidden xs-hidden"></div>
+</div>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>

@@ -7,11 +7,15 @@ body {
     margin: 0;
 }
 
+.buffer {
+    height: 125px;
+}
+
 .heady img {
     height: 30px;
     padding-left: 16px;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #titlelogo {
@@ -19,7 +23,7 @@ body {
     color: #519872;
     font-size: 4.0em;
     margin: 0;
-    padding: 10px 0 0 0;
+    padding: 20px 0 0 0;
     line-height: 60%;
 }
 
@@ -37,8 +41,14 @@ body {
 }
 
 .headbar {
-    padding-top: 10px;
+    background-color: white;
+    padding-top: 20px 0 10px 0px;
     box-shadow: 0px 0px 10px 0px #252422;
+    position:fixed;
+    margin:0;
+    top: 0;
+    width: 100%;
+    z-index: 120;
 }
 
 .cntr {
@@ -70,6 +80,20 @@ body {
 
 .field, .action {
     margin-left: 20px;
+}
+
+.topLinks {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.3em;
+    color: #101271;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.topLinks:hover {
+    color: #C0DBB7;
+    text-decoration: none;
+    background-color: white;
 }
 
 ///Article Formating
@@ -109,6 +133,23 @@ body {
     width: auto;
     height: 400px;
     margin-bottom: 20px;
+}
+
+.artCat {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1.2em;
+    color: #101271;
+    margin-top: 0;
+}
+
+.artList {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: #C0DBB7;
+    color: white;
+    padding: 5px;
+    display: inline;
+    margin: 0 0 0 30px;
+    border-radius: 2px;
 }
 
 @media screen and (max-width: 600px) {

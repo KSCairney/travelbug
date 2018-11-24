@@ -17,7 +17,15 @@
       <p id="titlelogo">travelBug</p>
       <!-- <p id="titlesub">Bug-sized travel guides.</p> -->
       <%= image_tag("bugpathblue.png") %>
+      <br>
+      <%= link_to "Home", simple_pages_index_path, { :class=>"topLinks" } %>
+      <%= link_to "Articles", simple_pages_articles_path, { :class=>"topLinks" } %>
+      <%= link_to "Countries", simple_pages_countries_path, { :class=>"topLinks" } %>
+      <br>
+      <br>
     </div>
+  </div>
+  <div class="row buffer">
   </div>
 <%= yield %>
 

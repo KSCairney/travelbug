@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'simple_pages/countries'
+
+  get 'simple_pages/articles'
+
+  get 'simple_pages/united_kingdom'
+
   resources :posts
   get 'simple_pages/index'
   
